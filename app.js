@@ -3,6 +3,7 @@ set selfie cam as the default and turn off audio. If we want to use the normal c
 facingMode = "environment"
 */
 var constraints = { video: { facingMode: "user" }, audio: false };
+// var constraints = { video: { facingMode: "environment" }, audio: false };
 
 /* define our constants */
 const cameraView = document.querySelector("#camera--view"),
